@@ -1,0 +1,5 @@
+n=int(input())
+x=list(map(int,input().split()))
+y=int(input())
+if y not in x:print(-1)
+else:print(x.index(y))
