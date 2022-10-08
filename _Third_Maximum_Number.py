@@ -1,0 +1,5 @@
+n=int(input())
+x=list(map(int,input().split()))
+z=sorted(set(x))
+if len(z)>=3:print(z[-3])
+else:print(max(z))
